@@ -1,0 +1,16 @@
+Git pull is used to fetch and merge changes from the remote repository to the local repository.
+Git pull is a cpmbination of two commands, git fetch followed by git merge
+
+Git fetch command dowanloads content from the required remote repository & git merge command combines multiple sequences of commits into a single branch
+
+1. create repository : git init
+2. git pull <url>
+3. edit
+4. git status
+5. git add .
+6. git commit -m "changes made" 
+7. git status
+8. git remote add origin <url>
+9. git remote -v 
+10. git push -u origin master
+11. go to url and check pushs
